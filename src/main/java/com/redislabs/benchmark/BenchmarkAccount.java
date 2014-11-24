@@ -108,7 +108,7 @@ public class BenchmarkAccount implements Runnable {
                 logger.error("we didnt make a union on all items  results " + results + " business " + i );
 
             stopwatch.stop();
-            
+
             latencyList.add(stopwatch.elapsed(TimeUnit.MILLISECONDS));
             //logger.debug ("Time it took to union - " + stopwatch.elapsed(TimeUnit.MILLISECONDS) + " results - " + results);
             stopwatch.reset();
